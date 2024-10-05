@@ -1,5 +1,15 @@
 1 -) What is Spring Boot and how does it differ from the Spring Framework?
 ans:- Spring Boot is extension of spring Framework and it simplifies the development of java applications by providing pre-build tools and auto-configurations,
       embedded servers.unlike spring Spring boot minimize the boilerplate code and configurations.
-
+2 -) What are the advantages of Spring boot ?
+ans:- easy to set-up with auto-Configuration
+      servers like Tomcat or Jetty
+      Pre-configured libraries and frameworks
+      easy Deployment with JAR or WAR
+3 -)  How does Spring Boot simplify application development?
+ans:- through auto-configuration spring boot automatically configured beans and settings depend upon project dependency,
+      this eliminates most of the XML code and boilerplate code
+4) -) What are the significance of @SpringBootApplication annotations?
+ans:-@SpringBootApplication is combinations of three annotations @EnableautoConfiguration,@Configuration,@ComponentScan .
+     is enables component scanning and configurations and mark class  as configured class
 
