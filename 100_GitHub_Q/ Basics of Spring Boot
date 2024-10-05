@@ -1,15 +1,31 @@
-1 -) What is Spring Boot and how does it differ from the Spring Framework?
+1 -)What is Spring Boot and how does it differ from the Spring Framework?
 ans:- Spring Boot is extension of spring Framework and it simplifies the development of java applications by providing pre-build tools and auto-configurations,
       embedded servers.unlike spring Spring boot minimize the boilerplate code and configurations.
-2 -) What are the advantages of Spring boot ?
+2 -)What are the advantages of Spring boot ?
 ans:- easy to set-up with auto-Configuration
       servers like Tomcat or Jetty
       Pre-configured libraries and frameworks
       easy Deployment with JAR or WAR
-3 -)  How does Spring Boot simplify application development?
+3 -)How does Spring Boot simplify application development?
 ans:- through auto-configuration spring boot automatically configured beans and settings depend upon project dependency,
       this eliminates most of the XML code and boilerplate code
-4) -) What are the significance of @SpringBootApplication annotations?
+4) -)What are the significance of @SpringBootApplication annotations?
 ans:-@SpringBootApplication is combinations of three annotations @EnableautoConfiguration,@Configuration,@ComponentScan .
-     is enables component scanning and configurations and mark class  as configured class
+     it enables component scanning and configurations and mark class  as configured class
+5) -)What is the difference between spring boot and spring MVC?
+ans:-Spring MVC is the web framework under the spring ecosystem that focus on the building web applications.
+     spring boot simplifies  entire process of the development offering auto-configuration and embedded servers.
+6) -)What are the key components of spring boot applications ?
+ans:- @SpringBootAppliation
+      Embedded servers
+      Dependencey management(via Maven/Gradle)
+      Auto-Configurations
+      Spring boot starter
+7) -)How does spring boot auto-configuration works?
+ans:-spring boot auto configurations automatically enables configurations depends on which you have jar dependency added.
+8) -)What is spring boot starter?
+ans:-starter are set of pre-defined configured dependency that simplify the process of adding commonly used libraries to the project.
+     Examples include spring-boot-starter-web, spring-boot-starter-data-jpa, etc.
+9) -)What is use of application.properties & application.yml?
+ans:-this files are used for the configured the settings.you can define server port ,logging,database connections details
 
