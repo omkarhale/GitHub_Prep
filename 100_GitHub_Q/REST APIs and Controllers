@@ -1,0 +1,9 @@
+1 -)How do you create RESTful web services in spring boot ?
+ans:-Use the @Restcontroller annotation on  class and define  Request Mapping methods using @GetMapping ,@PostMapping
+annotations  to handle HTTPS requests and return the response.
+2 -)What is the purpose of the @Get @Put @Delete Mapping annotations?
+ans:-These annotations are shortcuts of @RequestMapping annotations with specific methods to map HTTP requests to handler methods.
+3 -)How do you handle path variables in spring boot?
+ans:-use the @PathVariable annotations in controller method parameter to extract value from URL.
+4 -)How do you Handle query parameter?
+ans:-use the @Requestparam annotations in controller method to extract query parameter.

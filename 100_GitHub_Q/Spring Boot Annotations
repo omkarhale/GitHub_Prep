@@ -3,5 +3,12 @@ ans:-@RestController is the combination of the @Controller and @ResponseBody & i
 @Controller is use to define the controller class  & that typically  returns the view.
 2 -)What is @Autowired and How does  it works in spring boot  ?
 ans:-it is used for automatic dependency injection ,and it allows spring to resolve and inject the methods fields and contractures.
-3 -)What is Qualifier and when would used it?
+3 -)What is @Qualifier and when would used it?
 ans:-when you have multiple beans of same type are available in context and you want to specify which bean should be injected.
+4 -)What is use of @Value annotations
+ans:-Used to inject values from properties files into spring  managed beans.
+5 -)What is the difference between @Controller and @RestController?
+ans:-@Controller is used for traditional MVC pattern to return view and @Restcontroller is use for the RESTful controllers
+      and directly returns data in form of XML and JSON
+6) -)What is use of @Repository annotation?
+ans:-it is used for the data access layer class and helps automatically handle exception .
